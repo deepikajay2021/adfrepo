@@ -1,0 +1,9 @@
+{
+	"name": "deejay-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cdaeeeef-d045-4ccd-99bf-ee86b252e826",
+		"tenantId": "e0dc1b5f-7d77-4ab9-b08b-15da98e2ff68"
+	}
+}
