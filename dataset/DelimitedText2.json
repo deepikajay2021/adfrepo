@@ -2,15 +2,15 @@
 	"name": "DelimitedText2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "HttpServer1",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "moviesdb.csv"
+				"type": "AzureBlobFSLocation",
+				"fileName": "moviesdb.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
